@@ -1,0 +1,23 @@
+{
+    "name": "umair121245/php-email-library",
+    "description": "A PHP email library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Umair Khan",
+            "email": "khan0147852@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Umair121245\\PhpEmailLibrary\\": "src/"
+        }
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "require": {
+        "umair121245/php-email-library": "1.0.0"
+    }
+}
